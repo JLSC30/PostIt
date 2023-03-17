@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-type PostProps {
+type PostProps = {
     avatar: string
     name: string
     postTitle: string
